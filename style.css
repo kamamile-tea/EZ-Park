@@ -1,0 +1,340 @@
+body{
+  background-color: #41A4FF !important;
+}
+
+nav {
+  background-color: white;
+  
+}
+
+.container-fluid{
+  display: flex;
+}
+
+.nav-item{
+  justify-content: space-around !important;
+}
+
+h1{
+  font-family: 'Montserrat';
+}
+
+p{
+  font-family: 'Montserrat';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  flex-direction: row;
+}
+
+.navbar a{
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.navbar a:hover{
+  opacity: 0.9;
+  transition-duration: 0.4s;
+  color: #000000;
+  background-color: #6C63FF;
+}
+
+/* Updated navigation bar */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: right;
+  align-items: center;
+  background: #37E596;
+  color: black;
+  height: 70px;
+  font-family: 'Montserrat';
+  position: fixed; /* Sets navbar to fixed position*/
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* To avoid overlapping */
+}
+
+.container {
+  max-width: 1160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: 'Krub';
+  font-weight: bold;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Krub'
+}
+
+
+/* For home page */
+
+/* Welcome */
+.welcome {
+  background-image: url("https://www.brickunderground.com/sites/default/files/styles/blog_primary_image/public/blog/images/4859177053_c3fb190917_o.jpg");
+}
+
+#headquote {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  margin-left: 100px;
+  margin-right: 800px;
+  /*margin-bottom: 500px;*/
+  background-color: #6C63FF;
+}
+
+
+
+.phrase {
+  font-family: 'Montserrat';
+  color: #6C63FF;
+}
+
+/* Text animation */
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+#placeholder {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  text-align: center;
+}
+
+.caption {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+/* Section 1*/
+.intro_paragraph {
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.intro_mission {
+  font-family: 'Montserrat';
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.photo-right {
+  display: flex;
+  justify-content: center;
+}
+
+/* Section 2*/
+.photo-left {
+  display: flex;
+  justify-content: center;
+}
+
+/* Section 3 - Three boxes */
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  font-family: 'Montserrat';
+  background-color: #41A4FF;
+}
+
+.grid-item-title{
+  font-weight: bold;
+}
+
+/* Footer */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer.page-footer {
+  height: 5%;
+}
+
+footer
+{
+  color: #FFFFFF;
+  background-color: #26262A;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+/* About Page */
+.mission {
+  text-align: center;
+  /*background-image: url("https://cdn.discordapp.com/attachments/548720008801550360/686821850293993474/missionbg.png");*/
+  opacity: 1.0;
+
+}
+
+#missiontitle {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 1.0;
+}
+
+.mission-desc {
+  font-size: 20px;
+  background-color: rgba(248, 222, 4, 0.7);
+  opacity: 1.0;
+  color: black;
+}
+
+.founding {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  background-color: #6C63FF;
+  text-align: center;
+}
+
+#ourteam {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.team {
+  background-color: #6C63FF;
+}
+/* About - Three boxes */
+.grid-item-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  font-family: 'Montserrat';
+  background-color: #F8DE04;
+}
+
+
+/* Product */
+#productend{
+  font-family: 'Montserrat';
+  font-size: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*FAQ Page*/
+.help_section{
+  margin-top: 50px;
+
+}
+
+.options {
+  font-size: 20px;
+}
+
+.question_list {
+  font-family: 'Montserrat';
+  background-color: #6C63FF;
+}
+
+
+.question {
+  margin-top: 50px;
+  margin-left: 80px;
+  font-size: 25px;
+}
+
+.answer {
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+
+/*Contact Page*/
+#contact_form {
+  margin-left: 40px;
+}
+
+#contacttitle {
+  color:  #6C63FF;
+}
+
+/* Product Services Page */
+.product-bold{
+  position: relative;
+  font-size: 100px;
+  font-weight: 300px;
+}
+
+.card-img-size{
+  height: 45vh;
+  width: 45vh;
+}
+
+.services-caption{
+  text-align: center;
+}
+
+.ourBtn{
+  background-color: #6C63FF !important;
+}
